@@ -31,7 +31,7 @@ For a basic description of what these functions do, you can enquire with
 ```?bpca``` or ```?noisyintersectionvi```.
 
 
-## Example: identify line and locate intersection point for simultaneous observations.
+## Example: identify line and locate intersection point
 
 We present an example of what the package does while abstracting from the specifics of the physical application. 
 
