@@ -2,7 +2,7 @@
 
 ## Installation
 
-1 - Add the registry [CollaborativeAstronomy](https://github.com/ngiann/CollaborativeAstronomyJulia).
+1 - Add the registry [AINJuliaRegistry](https://github.com/HITS-AIN/AINJuliaRegistry).
 
 2 - Switch into "package mode" with ```]``` and add the package with
 ```
@@ -15,7 +15,7 @@ using ProbabilisticFluxVariationGradient
 
 ## Updating the package
 
-Switch into "package mode" with ```]``` and add type ```registry update CollaborativeAstronomyJulia```. This will make Julia update all packages associated with ```CollaborativeAstronomy``` registry. 
+Switch into "package mode" with ```]``` and add type ```registry update AINJuliaRegistry```. This will make Julia update all packages associated with ```AINJuliaRegistry``` registry. 
 
 Alternatively, you enter package mode and type ```up```. This will update all packages in Julia, including this one.
 
