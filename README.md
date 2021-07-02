@@ -15,7 +15,9 @@ using ProbabilisticFluxVariationGradient
 
 ## Updating the package
 
-Switch into "package mode" with ```]``` and add type ```registry update AINJuliaRegistry```. This will make Julia update all packages associated with ```AINJuliaRegistry``` registry. 
+Switch into "package mode" with ```]``` and add type ```registry update AINJuliaRegistry```. 
+
+This will make Julia update all packages associated with ```AINJuliaRegistry``` registry. 
 
 Alternatively, you enter package mode and type ```up```. This will update all packages in Julia, including this one.
 
