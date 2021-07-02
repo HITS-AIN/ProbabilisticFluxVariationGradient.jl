@@ -4,7 +4,9 @@
 
 This package is implemented in the Julia language. 
 
-A current release of Julia may be downloaded [here](https://julialang.org/). 
+A current release of Julia may be downloaded [here](https://julialang.org/).
+
+An easy way of using the package is the following:
 
 1 - Add the registry [AINJuliaRegistry](https://github.com/HITS-AIN/AINJuliaRegistry).
 
