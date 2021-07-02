@@ -1,14 +1,8 @@
-# ProbabilisticFluxVariationGradient.jl (latest version is 1.45)
-
-## Latex
-
-This repository contains a backup copy of Latex notes.
-Mathematical notes for GP approach found [here](LATEX/Galaxy_VS_AGN/main.pdf).
-
+# ProbabilisticFluxVariationGradient.jl
 
 ## Installation
 
-1 - Add the registry [CollaborativeAstronomy](https://github.com/ngiann/CollaborativeAstronomyJulia).
+1 - Add the registry [AINJuliaRegistry](https://github.com/HITS-AIN/AINJuliaRegistry).
 
 2 - Switch into "package mode" with ```]``` and add the package with
 ```
@@ -21,13 +15,9 @@ using ProbabilisticFluxVariationGradient
 
 ## Updating the package
 
-Switch into "package mode" with ```]``` and add type ```registry update CollaborativeAstronomyJulia```. This will make Julia update all packages associated with ```CollaborativeAstronomy``` registry. You may be prompted for your GitHub credentials.
+Switch into "package mode" with ```]``` and add type ```registry update AINJuliaRegistry```. This will make Julia update all packages associated with ```AINJuliaRegistry``` registry. 
 
 Alternatively, you enter package mode and type ```up```. This will update all packages in Julia, including this one.
-
-## How to check which version is installed
-
-Enter package mode with `]` and execute `st`. Scroll the alphabetically ordered list of packages until you encounter the `ProbabilisticFluxVariationGradient` entry. The installed version will be stated at the same line.
 
 # Using the package
 
