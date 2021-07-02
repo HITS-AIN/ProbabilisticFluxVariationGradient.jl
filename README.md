@@ -2,6 +2,8 @@
 
 ## Installation
 
+This package is implemented in the [Julia language](https://julialang.org/). 
+
 1 - Add the registry [AINJuliaRegistry](https://github.com/HITS-AIN/AINJuliaRegistry).
 
 2 - Switch into "package mode" with ```]``` and add the package with
