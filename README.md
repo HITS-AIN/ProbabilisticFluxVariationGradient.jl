@@ -124,6 +124,3 @@ plot(b[1], 0.0, "ro")
 Note that, for this particular example, if you plot the histograms for the other two coordinates, you will get plots identical to the ones above. This may appear strange, but it is simply because all three coordinates are dependent on the random variable that scales vector 𝐛 so that it points to the sought intersection point. We do not elaborate this issue any further here.
 
 It is worth re-running this entire example again to see how the histogram fluctuates between runs when new data are randomly generated each time.
-
-# ProbabilisticFluxVariationGradient.jl
-# ProbabilisticFluxVariationGradient.jl
