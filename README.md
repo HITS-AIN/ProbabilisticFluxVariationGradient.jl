@@ -19,6 +19,16 @@ add ProbabilisticFluxVariationGradient
 using ProbabilisticFluxVariationGradient
 ```
 
+In case you are installing `ProbabilisticFluxVariationGradient` to an existing Julia environment, there is a chance to run into dependency problems. In this case, it is advisable to work in a new [environment](https://pkgdocs.julialang.org/v1/environments/). That is
+```
+mkdir("MyPFVG")
+cd("MyPFVG")
+# press `]` to enter package mode:
+(@v1.6) pkg> activate .
+```
+and use this environment for installing and working with the package.
+Having exited Julia, one can enter the environment again by simpling starting Julia in the respective folder and using `activate .` in package mode.
+
 ## Updating the package
 
 Switch into "package mode" with ```]``` and add type ```registry update AINJuliaRegistry```. 
