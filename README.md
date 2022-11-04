@@ -1,6 +1,12 @@
 # ProbabilisticFluxVariationGradient.jl
 
-## Installation
+
+## ℹ What is this?
+
+This is a Julia implementation of the method introduced in [PFVG_AA2021](https://github.com/HITS-AIN/PFVG_AA2021.jl).
+
+
+## 💾 How to install
 
 This package is implemented in the Julia language. 
 
@@ -29,7 +35,8 @@ cd("MyPFVG")
 and use this environment for installing and working with the package.
 Having exited Julia, one can enter the created environment again by simply starting Julia in the respective folder and using `activate .` in package mode.
 
-## Updating the package
+
+## ⬆ Updating the package
 
 Switch into "package mode" with ```]``` and add type ```registry update AINJuliaRegistry```. 
 
@@ -37,7 +44,7 @@ This will make Julia update all packages associated with ```AINJuliaRegistry``` 
 
 Alternatively, you enter package mode and type ```up```. This will update all packages in Julia, including this one.
 
-# Using the package
+# ▶ Using the package
 
 ## Available functions
 
